@@ -1,0 +1,83 @@
+/*Index*/
+.parrafo{
+    color: antiquewhite;
+background-color: rgb(65, 62, 62);
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1,h2{ color: black;
+    background-color: aquamarine;
+color: rgb(133, 50, 211) ;
+font-family: 'Times New Roman', Times, serif;
+ }
+
+
+/*Pagina Contacto*/
+/*Colores de la pagina:
+1. NEGRO - TITULOS
+2. BACKGROUD: aquamarine
+3. BLANCO - SUBTITULOS
+4.BACKGROUND SECUNDARIO: rgb(133, 50, 211) ;*/
+.contenedor1{background-color: blue;
+margin: auto;
+width: 50%; 
+height: 90vh; }
+.contenedor2{
+    background-color: aquamarine;
+ width: 40%;
+    height: 70vh;}
+.contenedor3{ 
+    background-color: blueviolet;
+
+    width: 30%;
+    height: 60vh;
+}
+.contenedor4{
+    background-color: rgb(51, 51, 167);
+  
+    width: 20%;
+    height: 50vh;
+ }
+.boddi{ 
+background-image: url(../imagenes/prevencion-de-quemaduras-pirotecnia-pyrswrs9wk6160w94jv8itz0a9546yw9rq5ekgx7xa.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.p1{
+    padding: 30px;
+ }
+.p2{
+    padding: 35px;
+ }
+ .p3{
+    padding: 40px;
+  }
+.p4{
+    padding: 48px;
+ }
+.elemento-padre{ 
+    list-style-type: none;
+    padding: 1%;
+    border:2px solid black;
+    display: flex ;
+    flex-direction: row;
+}
+.elemento-padre li{ 
+    border: 10px solid rgb(15, 88, 88);
+    padding:5px ;}
+/*.elemento1{
+    background-color: aliceblue;                                     
+    color: antiquewhite;
+    flex-grow: 3;}
+ .elemento2{
+    background-color: blueviolet;
+    color: blanchedalmond;
+    flex-basis: 10%;}*/
+    
+.formulario1{ 
+ padding: 0.5%;
+ border: 2px solid white;
+ margin: auto;}
+        
