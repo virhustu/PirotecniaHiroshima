@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
 /*Index*/
 .parrafo{
     color: antiquewhite;
@@ -15,7 +19,7 @@ font-family: 'Times New Roman', Times, serif;
 /*Pagina Contacto*/
 /*Colores de la pagina:
 1. NEGRO - TITULOS
-2. BACKGROUD: aquamarine
+2. BACKGROUD: black
 3. BLANCO - SUBTITULOS
 4.BACKGROUND SECUNDARIO: rgb(133, 50, 211) ;*/
 .contenedor1{background-color: blue;
@@ -23,7 +27,7 @@ margin: auto;
 width: 50%; 
 height: 90vh; }
 .contenedor2{
-    background-color: aquamarine;
+    background-color: black;
  width: 40%;
     height: 70vh;}
 .contenedor3{ 
@@ -75,9 +79,75 @@ background-size: cover;}
     background-color: blueviolet;
     color: blanchedalmond;
     flex-basis: 10%;}*/
-    
+    @media (mid-width:992px) { }
 .formulario1{ 
- padding: 0.5%;
- border: 2px solid white;
- margin: auto;}
-        
+    margin: auto;
+    width: 10%;
+    height: 5vh;
+
+}
+
+    
+
+@media (min-width:992px){
+    .card-conteiner{
+        display: grid;
+        gap: 10px;
+        grid-template-rows: 300px 300px ;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+ }
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   ;
+}
+.card-tarjeta{ 
+    padding:2px ;
+    border:5px solid rgb(5, 5, 5); 
+    border-radius: 10px;
+    background-color:grey;
+    
+}
+.title2     { 
+    padding:2px ;
+    border:5px solid black;
+    display: flex;
+    justify-content: center
+}
+.card-conteiner{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr }
+.formulario{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    border: 0% solid black;}
+.div1 { 
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media(min-width:992px)
+{.footer1.targetafooter  {
+    display: flex;
+ }} 
+
+
+.footer1{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+   ;}
+.targetafooter{
+    background-color: rgb(162, 94, 226);
+    color: antiquewhite;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    flex-grow: 2;}
+.tarjetaredes{
+    justify-items: center;
+    display: flex }
+
